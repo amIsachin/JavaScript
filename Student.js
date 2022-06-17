@@ -10,3 +10,16 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+
+  var swiper = new Swiper(".course-swiper", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    autoplay:{
+      delay: 10000,
+      disableOnInteration:false
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    }
+  });
